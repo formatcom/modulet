@@ -1,0 +1,6 @@
+[submodule "all/devGameJS"]
+	path = all/devGameJS
+	url = https://github.com/formatcom/devGameJS
+[submodule "all/nodeShared"]
+	path = all/nodeShared
+	url = https://github.com/formatcom/nodeShared
