@@ -1,2 +1,15 @@
+# AGREGAR MODULOS
 $ git submodule add https://github.com/formatcom/devGameJS all/devGameJS
 $ git submodule add https://github.com/formatcom/nodeShared all/nodeShared
+
+
+# ACTUALIZAR
+$ git submodule update --remote all/nodeShared                SOLO UNO
+$ git submodule update --remote                               TODOS
+
+# CLONAR EN DOS PASOS
+$ git clone https://github.com/formatcom/modulet
+$ git submodule update --init --recursive
+
+# CLONAR EN UN PASO
+$ git clone --recurse-submodules https://github.com/formatcom/modulet
